@@ -1,0 +1,94 @@
+{
+    "title": "JDBC UPDATE ACTIVITY",
+    "data": [
+        {
+            "key": "timeout",
+            "label": "TIMEOUT",
+            "type": "number",
+            "props": {
+                "required": true,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "key": "checkbox",
+            "label": "COMMIT",
+            "type": "checkbox",
+            "props": {
+                "required": true
+            },
+            "values": [
+                {
+                    "key": 1,
+                    "value": "item1",
+                    "isChecked": false
+                },
+                {
+                    "key": 2,
+                    "value": "item2",
+                    "isChecked": false
+                },
+                {
+                    "key": 3,
+                    "value": "item3",
+                    "isChecked": false
+                }
+            ]
+        },
+        {
+            "key": "maxrows",
+            "label": "MAX_ROWS",
+            "type": "number",
+            "props": {
+                "required": true,
+                "min": 0,
+                "max": 20
+            }
+        },
+        {
+            "key": "sqlstmt ",
+            "label": "STATEMENT",
+            "type": "textarea",
+            "props": {
+                "required": true
+            }
+        },
+        {
+            "key": "Params",
+            "label": "PARAMS",
+            "type": "params",
+           
+            "items": [
+                {
+                    "id": 1,
+                    "name": "loc_cd",
+                    "bgColor": "#980DFF"
+                },
+                {
+                    "id": 2,
+                    "name": "ct_qty",
+                    "bgColor": "white"
+                },
+                {
+                    "id": 3,
+                    "name": "loc_nm",
+                    "bgColor": "#980DFF"
+                },
+                {
+                    "id": 4,
+                    "name": "qty_ty",
+                    "bgColor": "white"
+                }
+            ]
+        },
+        {
+            "key": "inputBindings ",
+            "label": "INPUT BINDINGS",
+            "type": "inputbindings",
+            "props": {
+                "required": true
+            }
+        }
+    ]
+}
